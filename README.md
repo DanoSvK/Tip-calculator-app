@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/DanoSvK/Tip-calculator-app
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View Codes](https://github.com/DanoSvK/Tip-calculator-app)
+- Live Site URL: [View Live Site](https://danosvk.github.io/Tip-calculator-app/)
 
 ## My process
 
