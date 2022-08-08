@@ -17,9 +17,12 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <header>
     <section class="logo">
         <img src="./images/logo.svg" alt="">
     </section>
+  </header>
+  <main>
     <section class="wrapper">
       <article class="bill">
         <div class="error-bill">
@@ -36,7 +39,7 @@
           <button class="select-tip__button" data-tip="15">15%</button>
           <button class="select-tip__button" data-tip="25">25%</button>
           <button class="select-tip__button" data-tip="50">50%</button>
-          <input class="input custom" type="number" placeholder="Custom" onChange="custom()" dir="rtl"/>
+          <input class="input custom" #id='select' type="number" placeholder="Custom" onChange="custom()" dir="rtl"/>
         </div>
       </article>
       <article class="people">
@@ -62,6 +65,7 @@
       </div>
       </article>
     </section>
+  </main>
   </body>
   <script src="./main.js"></script>
 </html>
