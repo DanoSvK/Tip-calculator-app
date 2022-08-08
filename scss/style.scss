@@ -129,14 +129,14 @@ img {
   border: 2px solid transparent;
   padding: 0 18px;
   &.bill__input {
-    background-image: url(/images/icon-dollar.svg);
+    background-image: url(./images/icon-dollar.svg);
     @include input;
     &:focus {
       border-color: $color-button-active;
     }
   }
   &.people__input {
-    background-image: url(/images/icon-person.svg);
+    background-image: url(./images/icon-person.svg);
     @include input;
     &:focus {
       border-color: $color-button-active !important;

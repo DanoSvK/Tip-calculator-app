@@ -26,7 +26,7 @@
           <label for="bill">Bill</label>
           <p class="error-bill__msg">Can't be negative figure</p>
         </div>
-        <input class="input bill__input" #id="bill" type="number" onChange="updateBill()" dir="rtl"/>
+        <input class="input bill__input" #id="bill" type="number" placeholder='0' onChange="updateBill()" dir="rtl"/>
       </article>
       <article class="select-tip">
         <p>Select Tip %</p>
@@ -44,7 +44,7 @@
           <label for="people">Number of People</label>
           <label class="error-people__msg" for="people">Can't be zero</label>
         </div>
-        <input class="input people__input" #id="people" type="number" onChange="updateBill()" dir="rtl"/>
+        <input class="input people__input" #id="people" type="number" placeholder='0' onChange="updateBill()" dir="rtl"/>
       </article>
       <article class="conclusion">
         <div>
