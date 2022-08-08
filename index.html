@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip calculator app</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="logo">
+        <img src="./images/logo.svg" alt="">
+    </section>
+    <section class="wrapper">
+      <article class="bill">
+        <div class="error-bill">
+          <label for="bill">Bill</label>
+          <p class="error-bill__msg">Can't be negative figure</p>
+        </div>
+        <input class="input bill__input" #id="bill" type="number" onChange="updateBill()" dir="rtl"/>
+      </article>
+      <article class="select-tip">
+        <p>Select Tip %</p>
+        <div class="select-tip__wrapper">
+          <button class="select-tip__button" data-tip="5">5%</button>
+          <button class="select-tip__button" data-tip="10">10%</button>
+          <button class="select-tip__button" data-tip="15">15%</button>
+          <button class="select-tip__button" data-tip="25">25%</button>
+          <button class="select-tip__button" data-tip="50">50%</button>
+          <input class="input custom" type="number" placeholder="Custom" onChange="custom()" dir="rtl"/>
+        </div>
+      </article>
+      <article class="people">
+        <div class="error-people">
+          <label for="people">Number of People</label>
+          <label class="error-people__msg" for="people">Can't be zero</label>
+        </div>
+        <input class="input people__input" #id="people" type="number" onChange="updateBill()" dir="rtl"/>
+      </article>
+      <article class="conclusion">
+        <div>
+          <div class="conclusion__amount">
+            <p>Tip Amount<span>/ person</p>
+            <p class="conclusion__tip-person">$0.00</p>
+          </div>
+          <div class="conclusion__total">
+            <p>Total<span>/ person</p>
+            <p class="conclusion__total-person">$0.00</p>
+          </div>
+        </div>
+      <div>
+        <p class="conclusion__reset">reset</p>
+      </div>
+      </article>
+    </section>
+  </body>
+  <script src="./main.js"></script>
+</html>
