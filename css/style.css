@@ -4,9 +4,6 @@ label {
   line-height: 23.7px;
   color: #5e7a7d; }
 
-label {
-  padding-bottom: 6px; }
-
 .select-tip button {
   font-size: 1.5rem;
   line-height: 35.54px;
@@ -81,14 +78,14 @@ img {
   border: 2px solid transparent;
   padding: 0 18px; }
   .input.bill__input {
-    background-image: url(/images/icon-dollar.svg);
+    background-image: url(./images/icon-dollar.svg);
     background-position: 15px;
     background-size: 10px;
     background-repeat: no-repeat; }
     .input.bill__input:focus {
       border-color: #26c2ae; }
   .input.people__input {
-    background-image: url(/images/icon-person.svg);
+    background-image: url(./images/icon-person.svg);
     background-position: 15px;
     background-size: 10px;
     background-repeat: no-repeat; }
