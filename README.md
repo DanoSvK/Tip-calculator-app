@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DanoSvK/Tip-calculator-app]
+- Solution URL: https://github.com/DanoSvK/Tip-calculator-app
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
